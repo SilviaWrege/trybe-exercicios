@@ -14,13 +14,4 @@ const compareTrue = (parametroA, parametroB) => {
 console.log(compareTrue(unicornio, papagaio)); 
 
 
-// Desafio 2 - Crie a função splitSentence
 
-const primeiraFrase = "Go Trybe";
-
-function splitSentence(frase){
-  const newFrase = frase.split(" ");
-  return newFrase;
-}
-
-splitSentence(primeiraFrase);
