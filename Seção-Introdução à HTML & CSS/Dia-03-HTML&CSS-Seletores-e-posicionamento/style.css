@@ -1,0 +1,51 @@
+
+h1 {
+    text-align: center;
+  }
+
+  .first {
+    background-color: rgb(235, 200, 84);
+    font-size: 20px;
+    height: 50px;
+    text-align:center;
+    width: 200px;
+    list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+  }
+
+  .second {
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    height: 70px;
+    text-align: center;
+    width: 300px;
+    list-style-type: none;
+    display: inline-block;   
+  }
+
+  .third {
+    background-color: rgb(170, 142, 106);
+    font-size: 20px;
+    height: 70px;
+    text-align: center;
+    width: 300px;
+    list-style-type: none;
+    display: inline-block;
+  }
+  .podium{
+    text-align:center;
+  }
+h3, ul{
+    text-align: center;
+    
+}
+.award ul,li{
+    display: inline;
+    text-align: center;
+}
+.valor-premio{
+    text-align: right;
+}
