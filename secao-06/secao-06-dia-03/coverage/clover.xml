@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1677515617609" clover="3.2.0">
+  <project timestamp="1677515617609" name="All files">
+    <metrics statements="10" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0" elements="17" coveredelements="3" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
+    <file name="createItem.js" path="/Users/silvianatalewrege/Documents/Trybe /trybe-exercicios/secao-06/secao-06-dia-03/createItem.js">
+      <metrics statements="10" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="3" count="0" type="stmt"/>
+      <line num="5" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="6" count="0" type="stmt"/>
+      <line num="8" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="9" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="20" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
