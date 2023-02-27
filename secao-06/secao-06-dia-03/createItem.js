@@ -18,5 +18,6 @@ const createItem = (name, unit, price, quantity) => {
   module.exports = createItem;
 
   createItem.name = "ketchup";
+  console.log(createItem,)
   
   
