@@ -8,7 +8,7 @@ it('Execute a função myFizzBuzz(num), sendo num um número divisível por 3, e
     expect(myFizzBuzz(3)).toBe('fizz');   
     });
 it('Execute a função myFizzBuzz(num), sendo num um número divisível por 5, e verifique se o retorno é o esperado.',() =>{
-    expect(myFizzBuzz(25)).toBe('buzz');
+    expect(myFizzBuzz(10)).toBe('buzz');
 });
 it('Execute a função myFizzBuzz(num), sendo num um número que não é divisível por 3 ou 5, e verifique se o retorno é o esperado', () =>{
     expect(myFizzBuzz(2)).toBe(2);
