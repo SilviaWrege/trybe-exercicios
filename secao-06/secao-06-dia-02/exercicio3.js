@@ -1,3 +1,5 @@
+
+
 const mapString = (objectMap, string) => {
     const splitString = string.split('');
     const mappedArray = [];
@@ -13,7 +15,7 @@ const mapString = (objectMap, string) => {
     }
     return mappedArray.join('');
   }
-  module.exports = mapString;
+ 
 
   const encode = (string) => {
     const map = {
@@ -25,7 +27,7 @@ const mapString = (objectMap, string) => {
     };
     return mapString(map, string);
   }
-  module.exports = encode;
+ 
 
   const decode = (string) => {
     const map = {
@@ -38,6 +40,8 @@ const mapString = (objectMap, string) => {
     return mapString(map, string);
   }
 
-  module.exports = decode;
-
-  console.log(encode('a,e,i,o,u'));
+  const functions = { encode, decode };
+  module.exports = functions;
+  
+  
+  console.log(encode('ana'));
