@@ -1,7 +1,7 @@
 
-const techList = (arrayTechologies,name) => {
+const techList = (arrayTechologies,'name') => {
     
     
-}
+};
 
-  module.exports = exercicio4.js;
+  module.exports = exercicio4;
